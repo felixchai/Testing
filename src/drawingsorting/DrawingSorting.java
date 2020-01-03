@@ -12,7 +12,7 @@ public class DrawingSorting
     System.out.println("1. Drawing");
     System.out.println("2. Sorting");
     System.out.println("3. Exit");
-    menu = input.nextInt();
+    menu = 1;
     
         switch(menu)
         {
@@ -20,7 +20,7 @@ public class DrawingSorting
                 System.out.println("Choose which Shape you want to draw!");
                 System.out.println("1. Pyramid");
                 System.out.println("2. Diamond");
-                menu = input.nextInt();
+                menu = 1;
                 
                     switch(menu)
                     {
